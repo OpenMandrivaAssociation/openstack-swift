@@ -46,7 +46,7 @@ expensive equipment.
 
 %package          account
 Summary:          A swift account server
-Group:            Productivity/Clustering/Computing
+Group:            System/Cluster
 Requires:         %{name} = %{version}-%{release}
 
 %description      account
@@ -57,7 +57,7 @@ This package contains the %{name} account server.
 
 %package          auth
 Summary:          A swift auth server
-Group:            Productivity/Clustering/Computing
+Group:            System/Cluster 
 Requires:         %{name} = %{version}-%{release}
 
 %description      auth
@@ -68,7 +68,7 @@ This package contains the %{name} auth server.
 
 %package          container
 Summary:          A swift container server
-Group:            Productivity/Clustering/Computing
+Group:            System/Cluster
 Requires:         %{name} = %{version}-%{release}
 
 %description      container
@@ -79,7 +79,7 @@ This package contains the %{name} container server.
 
 %package          object
 Summary:          A swift object server
-Group:            Productivity/Clustering/Computing
+Group:            System/Cluster 
 Requires:         %{name} = %{version}-%{release}
 
 %description      object
@@ -90,7 +90,7 @@ This package contains the %{name} object server.
 
 %package          proxy
 Summary:          A swift proxy server
-Group:            Productivity/Clustering/Computing
+Group:            System/Cluster
 Requires:         %{name} = %{version}-%{release}
 Requires:         memcached
 
