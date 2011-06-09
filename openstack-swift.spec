@@ -103,7 +103,7 @@ This package contains the %{name} proxy server.
 %if 0%{?with_doc}
 %package doc
 Summary:          Documentation for %{name}
-Group:            Documentation/Other
+Group:            Books/Computer books
 BuildRequires:    python-sphinx
 # Required for generating docs
 BuildRequires:    python-eventlet
