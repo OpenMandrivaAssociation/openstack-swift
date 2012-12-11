@@ -1,8 +1,0 @@
-openstack-swift-account.init
-openstack-swift-auth.init
-openstack-swift-container.init
-openstack-swift-create-man-stubs.py
-openstack-swift-functions
-openstack-swift-object.init
-openstack-swift-proxy.init
-swift-1.3-dev+bzr239.tar.gz

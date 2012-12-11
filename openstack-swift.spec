@@ -359,3 +359,16 @@ exit 0
 %doc LICENSE doc/build/html
 %endif
 
+
+
+%changelog
+* Thu Jun 09 2011 Antoine Ginies <aginies@mandriva.com> 1.2.99.239-1mdv2011.0
++ Revision: 683496
+- fix doc group
+- fix group in subpackage
+- import openstack-swift
+
+
+* Thu Jun 9 2011 Antoine Ginies <aginies@mandriva.com> 2011.1
+- first release for Mandriva based on OpenSUSE SRPM
+

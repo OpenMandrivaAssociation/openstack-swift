@@ -1,9 +1,2 @@
 sources:
-  "openstack-swift-account.init:"	77bb0d5e3bd4e9480bd0657b72fff3d0e3858092
-  "openstack-swift-auth.init:"	8a3f9bb8bcde14d4614f138d25623c26752793fd
-  "openstack-swift-container.init:"	5807748397f176798c1552a8c06090fa0cf042f8
-  "openstack-swift-create-man-stubs.py:"	60350a8e278a4b0d4a3e727e72a20efeb87d3070
-  "openstack-swift-functions:"	1f14550c022744a20a49eaa87a4cb6c91c14a6bc
-  "openstack-swift-object.init:"	080e4880b04000985a06e9e8eea64f11344660fc
-  "openstack-swift-proxy.init:"	3815fcd5bd8ee4f4f5fa367c5cbb598cef172365
-  "swift-1.3-dev+bzr239.tar.gz:"	c297d5357441ea81fcb348f3b62633f9417b9f9f
+  "swift-1.3-dev+bzr239.tar.gz": c297d5357441ea81fcb348f3b62633f9417b9f9f
