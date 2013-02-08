@@ -3,7 +3,7 @@
 %define bzr_rev 239
 Name:             openstack-swift
 Version:          1.2.99.%{bzr_rev}
-Release:          %mkrel 1
+Release:          2
 Summary:          OpenStack Object Storage (swift)
 Group:            Development/Python
 License:          ASL 2.0
@@ -37,12 +37,12 @@ OpenStack Object Storage (swift) aggregates commodity servers to work together
 in clusters for reliable, redundant, and large-scale storage of static objects.
 Objects are written to multiple hardware devices in the data center, with the
 OpenStack software responsible for ensuring data replication and integrity
-across the cluster. Storage clusters can scale horizontally by adding new nodes,
-which are automatically configured. Should a node fail, OpenStack works to
-replicate its content from other active nodes. Because OpenStack uses software
-logic to ensure data replication and distribution across different devices,
-inexpensive commodity hard drives and servers can be used in lieu of more
-expensive equipment.
+across the cluster. Storage clusters can scale horizontally by adding new
+nodes, which are automatically configured. Should a node fail, OpenStack works
+to replicate its content from other active nodes. Because OpenStack uses
+software logic to ensure data replication and distribution across different
+devices, inexpensive commodity hard drives and servers can be used in lieu of
+more expensive equipment.
 
 %package          account
 Summary:          A swift account server
