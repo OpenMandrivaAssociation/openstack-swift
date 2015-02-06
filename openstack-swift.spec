@@ -3,7 +3,7 @@
 %define bzr_rev 239
 Name:             openstack-swift
 Version:          1.2.99.%{bzr_rev}
-Release:          2
+Release:          3
 Summary:          OpenStack Object Storage (swift)
 Group:            Development/Python
 License:          ASL 2.0
