@@ -7,7 +7,7 @@ Release:          3
 Summary:          OpenStack Object Storage (swift)
 Group:            Development/Python
 License:          ASL 2.0
-URL:              http://launchpad.net/swift
+URL:              https://launchpad.net/swift
 Source0:          http://hudson.openstack.org/job/swift-tarball/lastSuccessfulBuild/artifact/dist/swift-1.3-dev+bzr%{bzr_rev}.tar.gz
 #Source0:          http://launchpad.net/swift/1.2/1.2.0/+download/swift-1.2.0.tar.gz
 Source1:          %{name}-functions
